@@ -115,7 +115,7 @@
 
 // //2] 
 // let a = 11   
-// b = 12
+// let b = 12
 // let c = a + b + a++ + b++ + ++a + ++b
 // console. log("a=" + a)
 // console. log("b=" + b)
@@ -143,7 +143,7 @@
 // console.log(Math.random()*10)   // *10 was give the random value 0 to 10 
 
 // let a = 120.3221
-// console.log(a.toFixed(1));      //toFixed() -> it is use for how many digit we want in give number 
+// console.log(a.toFixed(1));      //toFixed() -> it is use for how many digit we want nummber after decimal 
 
 
 // Problem Statement 
@@ -177,6 +177,8 @@
 // // Diameater
 // d = pi * a
 // console.log("Using Diameater = "+d)
+
+
 
 
 // // Conditional statement 
@@ -297,4 +299,128 @@
 // Day 4 
 // Looping 
 
+//// 1] For Loop 
+// for (let i =1;i<=10;i++){
+//     console.log(i)
+// }
 
+// for (let i = 2;i<=20;i=i+2){
+//     console.log(i)
+// }
+
+// for (let i = 20;i>=2;i=i-2){
+//     console.log(i)
+// }
+
+////For print fail write 
+// let i = 20
+// for (;i>=2;i=i-2){
+//     console.log(i)
+// }
+// console.log(i+'fail');
+
+
+////que
+//1] addition of natrual number 
+
+////Simple type 
+// var a = Number(prompt("Enter the Number you want to do addition .........."))
+// var sum = 0
+// for(var i=0;i<=a;i++){
+//      sum =sum+i
+// }
+// console.log(sum)
+
+//// Hard type 
+// var a = Number(prompt("Enter the Number you want to do addition .........."))
+// var sum = 0
+
+// if(isNaN(a)){
+//     console.log("Enter valid input....")
+// }
+// else{
+//     if(a>1){
+//         for(var i=0;i<=a;i++){
+//              sum =sum+i
+//         }
+//         console.log(sum)
+//     }
+//     else{
+//         console.log("Enter positive ither more than 0 ")
+//     }
+// }
+
+
+// ////2] Factorial 
+
+// var a = Number(prompt("Enter the Number you want Factorial  .........."))
+// var fac = 1
+// for(var i=1;i<=a;i++){
+//      fac =fac*i
+// }
+// console.log(fac)
+
+
+//// Factor 
+
+// var a = Number(prompt("Enter the Number you want Factor  .........."))
+// for(var i=1;i<=a;i++){
+//     if(a%i === 0){
+//         console.log(i);
+//     }    
+// }
+
+
+//// Prime number 
+
+// var a = Number(prompt("Enter a number for prime number "))
+// var prime = true
+// for(var i=2;i<=Math.floor(a/2);i++){
+//     if(a%i === 0){
+//         prime = false 
+//         break; 
+//     }    
+// }
+// console.log(a+" is the "+prime);
+
+
+//// Break and continue 
+
+//// Break
+// for(let i= 0;i<=23;i++){
+//     if(i==10) {
+//         break
+//     }
+//     else{
+//         console.log(i );
+//     }
+// }
+
+
+// //// Continue 
+// for(let i= 0;i<=23;i++){
+//     if(i==10) {
+//         continue
+//     }
+//     else{
+//         console.log(i );
+//     } 
+// }
+
+//// while 
+
+// var a = prompt("Enter any thing")
+// while(a !=="stop"){
+//     a = prompt("Enter any thing (For exit enter the Stop keyword)")
+// }
+
+//// addition of given number 
+
+var a = Number(prompt("Enter a number "))
+let sum = 0
+while(a>0){
+    var r = a%10
+    sum = sum + r
+    a=Math.floor(a/10)
+}
+console.log(sum)
