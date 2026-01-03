@@ -407,20 +407,36 @@
 //     } 
 // }
 
-//// while 
+
+//// while loop 
 
 // var a = prompt("Enter any thing")
-// while(a !=="stop"){
+// while(a && a.tolowerCase() !=="stop"){
 //     a = prompt("Enter any thing (For exit enter the Stop keyword)")
 // }
 
+
 //// addition of given number 
 
+// var a = Number(prompt("Enter a number "))
+// let sum = 0
+// while(a>0){
+//     var r = a%10           // it will take out the last number of digit 
+//     sum = sum + r            // 
+//     a=Math.floor(a/10)       // it will take out remain digit
+// }
+// console.log(sum)
+
+
+
+//// Reverse of the given number 
+
 var a = Number(prompt("Enter a number "))
-let sum = 0
+var sum = 0
+
 while(a>0){
-    var r = a%10
-    sum = sum + r
+    let r =a%10
+    sum=sum*10+r
     a=Math.floor(a/10)
 }
 console.log(sum)
