@@ -431,12 +431,54 @@
 
 //// Reverse of the given number 
 
-var a = Number(prompt("Enter a number "))
-var sum = 0
+// var a = Number(prompt("Enter a number "))
+// var sum = 0
 
-while(a>0){
-    let r =a%10
-    sum=sum*10+r
-    a=Math.floor(a/10)
+// while(a>0){
+//     let r =a%10
+//     sum=sum*10+r
+//     a=Math.floor(a/10)
+// }
+// console.log(sum)
+
+
+//// Strong Number 
+
+// var a=Number(prompt("Enter a number to check that number is strong or not "))
+// var sum=0
+// var n=a
+// while(a>0){
+//     let r=a%10                // 145 itha 5 kadla 
+//     let fact =1
+//     for(let i=1;i<=r;i++){
+//         fact=fact*i                //5 cha fact kadla 
+//     }
+//     sum  =sum+fact                  // fact cha sum kela 
+//     a=Math.floor(a/10)      // 14 
+// }
+// if(n===sum){
+//     console.log(n+" given number is strong")
+// }
+// else{
+//     console.log(n+" given number is not strong")
+// }
+
+////do while 
+
+// let i=1
+// do{
+//     console.log("Hello ")
+//     i++
+// }
+// while(i<10)
+
+
+//// Repeate hello 
+
+let a=prompt("Enter any thing ")
+let i
+do{
+    a=prompt("Enter any thing ")
+    i++
 }
-console.log(sum)
+while(a!="Hello")
