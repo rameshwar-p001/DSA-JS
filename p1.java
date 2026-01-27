@@ -16,11 +16,136 @@
 // }
 
 
-class p1{
-    public static void main(String args[]){
-        int a =10;
-        int b=20;
-        System.out.println(2*(a+b));
-    
+
+// class p1{
+    //     public static void main(String args[]){
+        //         int a =10;
+        //         int b=20;
+        //         int r = (a*b)/(a+b);
+        //         System.out.println(r);
+        
+     //     }
+ // }
+
+   
+////scanner start 
+// import java.util.*;
+// class p1{
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         String name = sc.next();
+//         System.out.println(name);
+        
+//     }
+// }
+
+//// if else 
+
+// import java.util.*;
+// class p1{
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         var no1 = sc.nextInt();
+//         if(no1 > 18){
+//             System.out.println("Adult");
+//         }
+//         else{
+//             System.out.println("Not Adult");
+//         }
+//     }
+// }
+
+
+// import java.util.*;
+// class p1{
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         var no1 = sc.nextInt();
+//         int i=no1%2;
+//         if(i==0){
+//             System.out.println("Even");
+//         }
+//         else{
+//             System.out.println("Odd");
+//         }
+//     }
+// }
+
+//// Else if 
+// import java.util.*;
+// class p1{
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         var no1 = sc.nextInt();
+//         var no2 = sc.nextInt();
+        
+//         if(no1==no2){
+//             System.out.println("qual");
+//         }
+//         else if(no1>no2){
+//             System.out.println("Gretter");
+//         }
+//         else{
+//             System.out.println("Lessthan");
+//         }
+//     }
+// }
+
+//// Switch case 
+// import java.util.*;
+// public class p1 {
+//     public static void main(String args[]){
+//         Scanner sc =new Scanner(System.in);
+//         var no1 = sc.nextLine();
+//         switch (no1) {
+//             case "1":
+//                 System.out.println("monday");
+//                 break;
+//             case "2":
+//                 System.out.println("Tuesday");
+//                 break;
+//             case "3":
+//                 System.out.println("wendsday");
+//                 break;
+
+//             case "4":
+//                 System.out.println("Thrusday");
+//                 break;
+
+//             case "5":
+//                 System.out.println("Friday");
+//                 break;
+//             case "6":
+//                 System.out.println("Saturday");
+//                 break;
+//             case "7":
+//                 System.out.println("sunday");
+//                 break;
+//             default:
+//                 System.out.println("no Day found ");
+//                 break;
+//         }
+//     }
+// }
+
+//// for loop 
+// import java.util.*;
+// public class p1 {
+//     public static void main (String rrga[]){
+//         // Scanner sc = new Scanner(System.in);
+        
+//         for(int a =10;a>0; a--){
+//             System.out.println(a);
+//         }
+//     }
+// }
+
+
+public class p1 {
+    public static void main (String rrga[]){
+        
+        for(int a =0;a<11; a++){
+            System.out.println(a);
+        }
     }
 }
