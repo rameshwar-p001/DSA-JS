@@ -141,11 +141,61 @@
 // }
 
 
-public class p1 {
-    public static void main (String rrga[]){
+////For loop 
+// public class p1 {
+//     public static void main (String rrga[]){
         
-        for(int a =0;a<11; a++){
-            System.out.println(a);
-        }
+//         for(int a =0;a<11; a++){
+//             System.out.println(a);
+//         }
+//     }
+// }
+
+
+//// while loop 
+// public class p1 {
+//     public static void main(String args[]){
+//         int a =0;
+//         while(a<11){
+//             System.out.println(a);
+//             a++;
+//         }
+//     }
+    
+// }
+
+//// Do-while
+// public class p1 {
+
+//     public static void main(String[] args) {
+//         int a=0;
+//         do{
+//             System.out.println(a);
+//             a++;
+//         }while(a<11);
+//     }
+// }
+
+// import java.util.Scanner;
+// public class p1 {
+//     public static void main(String[] args) {
+//         Scanner sc =new Scanner(System.in);
+//         int n=sc.nextInt();
+//         int sum = 0;
+//         for(int i=1;i<=n;i++){
+//             sum = sum + i;
+//         }
+//             System.out.println(sum);
+//     }
+// }
+
+import java.util.Scanner;
+public class p1 {
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        int n=sc.nextInt();
+        for(int i=1;i<11;i++){
+            System.out.println(n*i);
+        }   
     }
 }
